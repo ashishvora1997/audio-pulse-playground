@@ -2,9 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+
+    <!-- ── Primary Meta ─────────────────────────────────────────────── -->
+    <title>
+      audio-pulse — React Audio Recorder with Waveform Visualization
+    </title>
+    <meta
+      name="description"
+      content="A lightweight, customizable React audio recorder with real-time waveform visualization. 5 built-in variants, TypeScript support, MP3 output. Zero config — plug in and record."
+    />
+    <meta
+      name="keywords"
+      content="react audio recorder, waveform visualizer, audio-pulse, react microphone, mp3 recorder, react component, typescript audio, voice recorder react, audio waveform, sound visualizer"
+    />
+    <meta name="author" content="Ashish Vora" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://audiopulse.in" />
+
+    <!-- ── Open Graph (Facebook, LinkedIn, WhatsApp) ─────────────────── -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://audiopulse.in" />
+    <meta property="og:site_name" content="audio-pulse" />
+    <meta
+      property="og:title"
+      content="audio-pulse — React Audio Recorder with Waveform Visualization"
+    />
+    <meta
+      property="og:description"
+      content="A lightweight, customizable React audio recorder with real-time waveform visualization. 5 built-in variants, TypeScript support, MP3 output. Zero config — plug in and record."
+    />
+    <meta property="og:image" content="https://audiopulse.in/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="audio-pulse — React audio recorder with waveform visualization"
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- ── Twitter Card ───────────────────────────────────────────────── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://audiopulse.in" />
+    <meta
+      name="twitter:title"
+      content="audio-pulse — React Audio Recorder with Waveform Visualization"
+    />
+    <meta
+      name="twitter:description"
+      content="A lightweight, customizable React audio recorder with real-time waveform visualization. 5 built-in variants, TypeScript support, MP3 output."
+    />
+    <meta name="twitter:image" content="https://audiopulse.in/og-image.png" />
+    <meta name="twitter:image:alt" content="audio-pulse waveform visualizer" />
+    <meta name="twitter:creator" content="@ashishvora1997" />
+
+    <!-- ── Favicons ───────────────────────────────────────────────────── -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- ── PWA / Theme ────────────────────────────────────────────────── -->
+    <meta name="theme-color" content="#3b82f6" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="application-name" content="audio-pulse" />
+    <meta name="apple-mobile-web-app-title" content="audio-pulse" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <!-- ── Structured Data (JSON-LD) ─────────────────────────────────── -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "audio-pulse",
+        "url": "https://audiopulse.in",
+        "description": "A lightweight, customizable React audio recorder with real-time waveform visualization. 5 built-in variants, TypeScript support, MP3 output.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Ashish Vora",
+          "url": "https://github.com/ashishvora1997"
+        },
+        "codeRepository": "https://github.com/ashishvora1997/audio-pulse",
+        "downloadUrl": "https://www.npmjs.com/package/audio-pulse",
+        "softwareVersion": "1.2.0",
+        "programmingLanguage": ["TypeScript", "React"],
+        "keywords": "react, audio, recorder, waveform, visualizer, typescript, mp3"
+      }
+    </script>
+
+    <!-- ── Preconnect for Google Fonts (used in app) ─────────────────── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <div id="root"></div>
