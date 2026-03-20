@@ -19,7 +19,7 @@ export default function App() {
           </div>
           <div className="topbar-left">
             <span className="logo-text">audio-pulse</span>
-            <span className="logo-badge">v1.2.0</span>
+            <span className="logo-badge">v1.2.1</span>
           </div>
         </div>
 
